@@ -4,15 +4,14 @@ module.exports = (robot) ->
 
   MAP_SLACK_USER = {
     # "githubのユーザーID": "SlackのユーザーID"
-    "@gh-user-1": "<@slack-user-1>"
-    "@gh-user-2": "<@slack-user-2>"
+    "@yuudhonma": "<@本間裕大>"
+    "@natsutan": "夏谷実"
   }
 
   MAP_SLACK_CHANNEL = {
     # "Githubのリポジトリ名": "SlackのCHANNEL ID"
     # 注意：CHANNEL名ではなくCHANNEL ID
-    "gh-repo-1": "SlackRoomID1"
-    "gh-repo-2": "SlackRoomID2"
+    "PasonaTech-Inc/team_qumico": "github\u9023\u643a\u7528"
   }
 
   # お気に入りを表示するためにリストにしていますが、lgtm.inのRandomから取得してもいいと思います
